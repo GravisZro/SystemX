@@ -14,7 +14,7 @@ The goals for System X are derived from the wisdom I've gained from experience a
 
 # Components
 
-* [PDTK](https://github.com/GravisZro/pdtk) - a minimalist event-driven toolkit without onerous dependencies - replaces part of libsystemd
+* [PDTK](https://github.com/GravisZro/pdtk) - A minimalist event-driven toolkit that can be compiled into any program.
 * [circlefs](https://github.com/GravisZro/circlefs) - A FUSE filsystem to manage IPC sockets.
 * incanto - An code generator for using sockets in circlefs as IPC mechanism.
 * sysxinit - A minimal init/shutdown system that ensure the system is ready for sysxsmd.
