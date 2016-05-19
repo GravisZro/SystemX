@@ -13,4 +13,11 @@ The goals for System X are derived from the wisdom I've gained from experience a
 * Well documented - Generated documentation and code comments are not sufficient.
 
 # Components
-* circlefs
+
+* PDTK - a minimalist event-driven toolkit without onerous dependencies - replaces part of libsystemd
+* circlefs - a VFS to manage sockets - replaces D-Bus
+* incanto - an IPC interface generator - replaces gdbus-codegen and libdbus
+* sysxconfigd - abstracts /etc configuration file interface/notifies of configuration updates - replace code in LOTS of programs
+* sysxinit - init/shutdown system - replaces part of systemd core
+* sysxsmd - a service management daemon - replaces part of systemd core
+* sysxlogd - a text file based system logger that enables better log searching - replaces journald
