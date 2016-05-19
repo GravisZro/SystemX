@@ -1,5 +1,5 @@
 # System X
-System X is a set of clients and daemons to enable fundamental operation of modern POSIX systems.  You could call it a replacement for Systemd but with a different philosophy.
+System X is a set of clients and daemons to enable the fundamental operations of modern POSIX systems.  You could call it a replacement for Systemd but with a different philosophy.
 
 # Goals
 * Small footprint - The entire system should fit on a floppy.
