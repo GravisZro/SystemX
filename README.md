@@ -18,7 +18,7 @@ System X components currently being worked on.
 * [circlefs](https://github.com/GravisZro/circlefs) - A FUSE filsystem to manage IPC sockets.
 * incanto - A code generator for using sockets in circlefs as IPC mechanism.
 * sysxinit - A minimal init/shutdown system that ensure the system is ready for sysxsmd.
-* sysxsmd - A service management daemon that also manages run-levels and disk mounting.
+* sysxsmd - A runlevel aware service management daemon.
 * sysxconfd - Abstracts /etc configuration file interface/notifies of configuration updates.
 * sysxlogd - A text file based system logger that enables better log searching.
 * More to come.
