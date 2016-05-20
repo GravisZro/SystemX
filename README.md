@@ -13,7 +13,7 @@ The goals for System X are derived from the wisdom I've gained from experience a
 * Well documented - Generated documentation and code comments are not sufficient.
 
 # Components
-
+System X components currently being worked on.
 * [PDTK](https://github.com/GravisZro/pdtk) - A minimalist event-driven toolkit that can be compiled into any program.
 * [circlefs](https://github.com/GravisZro/circlefs) - A FUSE filsystem to manage IPC sockets.
 * incanto - A code generator for using sockets in circlefs as IPC mechanism.
@@ -21,3 +21,4 @@ The goals for System X are derived from the wisdom I've gained from experience a
 * sysxsmd - A service management daemon that also manages run-levels and disk mounting.
 * sysxconfd - Abstracts /etc configuration file interface/notifies of configuration updates.
 * sysxlogd - A text file based system logger that enables better log searching.
+* More to come.
