@@ -5,7 +5,7 @@ System X is a set of clients and daemons to enable the fundamental operations of
 The goals for System X are derived from the wisdom I've gained from experience as well as the wisdom of the [Unix philosophy](https://en.wikipedia.org/wiki/Unix_philosophy).
 
 * Small footprint - The entire system should fit on a floppy.
-* Portability - Only rely on POSIX, C++14 and FUSE.
+* Portability - Only rely on [POSIX](https://en.wikipedia.org/wiki/POSIX), [C++](https://en.wikipedia.org/wiki/C%2B%2B_Standard_Library) and [FUSE](https://en.wikipedia.org/wiki/Filesystem_in_Userspace).
 * Multi-platform support - At compile-time, use custom code to support specific kernels when most benificial.
 * Fault tolerance - Recover from errors or fail gracefully but don't hang or crash.
 * Modularity, not tight integration - Components should be trivial to replace.
