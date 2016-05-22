@@ -5,19 +5,21 @@ System X is a set of clients and daemons to enable the fundamental operations of
 The goals for System X are derived from the wisdom I've gained from experience as well as the wisdom of the [Unix philosophy](https://en.wikipedia.org/wiki/Unix_philosophy).
 
 * Small footprint - The entire system should fit on a floppy.
-* Portability - Only rely on POSIX, C++14 and FUSE.
-* Multi-platform support - At compile-time, use custom code to support specific kernels when most benificial.
+* Portability - Only rely on [POSIX](https://en.wikipedia.org/wiki/POSIX), [C++](https://en.wikipedia.org/wiki/C%2B%2B_Standard_Library) and [FUSE](https://en.wikipedia.org/wiki/Filesystem_in_Userspace).
+* Multi-platform support - At compile-time, use custom code to support specific kernels when most beneficial.
 * Fault tolerance - Recover from errors or fail gracefully but don't hang or crash.
 * Modularity, not tight integration - Components should be trivial to replace.
 * Text, not binaries - Configuration and log files should be readable with a generic text editor.
 * Well documented - Generated documentation and code comments are not sufficient.
 
 # Components
-
-* PDTK - a minimalist event-driven toolkit without onerous dependencies - replaces part of libsystemd
-* circlefs - a VFS to manage sockets - replaces D-Bus
-* incanto - an IPC interface generator - replaces gdbus-codegen and libdbus
-* sysxconfigd - abstracts /etc configuration file interface/notifies of configuration updates - replace code in LOTS of programs
-* sysxinit - init/shutdown system - replaces part of systemd core
-* sysxsmd - a service management daemon - replaces part of systemd core
-* sysxlogd - a text file based system logger that enables better log searching - replaces journald
+System X components currently being worked on.
+* [PDTK](https://github.com/GravisZro/pdtk) - A minimalist event-driven toolkit that can be compiled into any program.
+* [mcfs](https://github.com/GravisZro/mcfs) - A FUSE filsystem to manage IPC sockets.
+* [incanto](https://github.com/GravisZro/incanto) - A code generator for using sockets in circlefs as IPC mechanism.
+* [sxinit](https://github.com/GravisZro/sxinit) - A minimal init/shutdown system that ensure the system is ready for sxserviced.
+* [sxserviced](https://github.com/GravisZro/sxserviced) - A runlevel aware service management daemon.
+* [sxconfigd](https://github.com/GravisZro/sxconfigd) - Abstracts /etc configuration file interface/notifies of configuration updates.
+* [sxlogd](https://github.com/GravisZro/sxlogd) - A text file based system logger that enables better log searching.
+* [sxsessiond](https://github.com/GravisZro/sxsessiond) - A multi-seat user session management daemon.
+* More to come.
