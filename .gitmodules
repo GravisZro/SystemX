@@ -1,3 +1,24 @@
 [submodule "pdtk"]
 	path = pdtk
 	url = https://github.com/GravisZro/pdtk.git
+[submodule "mcfs"]
+	path = mcfs
+	url = https://github.com/GravisZro/mcfs.git
+[submodule "incanto"]
+	path = incanto
+	url = https://github.com/GravisZro/incanto.git
+[submodule "sxinit"]
+	path = sxinit
+	url = https://github.com/GravisZro/sxinit.git
+[submodule "sxserviced"]
+	path = sxserviced
+	url = https://github.com/GravisZro/sxserviced.git
+[submodule "sxconfigd"]
+	path = sxconfigd
+	url = https://github.com/GravisZro/sxconfigd.git
+[submodule "sxlogd"]
+	path = sxlogd
+	url = https://github.com/GravisZro/sxlogd.git
+[submodule "sxsessiond"]
+	path = sxsessiond
+	url = https://github.com/GravisZro/sxsessiond.git
