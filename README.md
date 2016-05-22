@@ -17,7 +17,7 @@ System X components currently being worked on.
 * [PDTK](https://github.com/GravisZro/pdtk) - A minimalist event-driven toolkit that can be compiled into any program.
 * [mcfs](https://github.com/GravisZro/mcfs) - A FUSE filsystem to manage IPC sockets.
 * incanto - A code generator for using sockets in circlefs as IPC mechanism.
-* sxinit - A minimal init/shutdown system that ensure the system is ready for sysxsmd.
+* sxinit - A minimal init/shutdown system that ensure the system is ready for sxserviced.
 * sxserviced - A runlevel aware service management daemon.
 * sxconfigd - Abstracts /etc configuration file interface/notifies of configuration updates.
 * sxlogd - A text file based system logger that enables better log searching.
