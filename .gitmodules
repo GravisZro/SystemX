@@ -1,3 +1,6 @@
+[submodule "pdtk"]
+	path = pdtk
+	url = https://github.com/GravisZro/pdtk.git
 [submodule "mcfs"]
 	path = mcfs
 	url = https://github.com/GravisZro/mcfs.git
