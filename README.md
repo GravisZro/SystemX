@@ -21,5 +21,5 @@ System X components currently being worked on.
 * sxserviced - A runlevel aware service management daemon.
 * sxconfigd - Abstracts /etc configuration file interface/notifies of configuration updates.
 * sxlogd - A text file based system logger that enables better log searching.
-* sxsessiond - A multi-seat session management daemon.
+* sxsessiond - A multi-seat user session management daemon.
 * More to come.
