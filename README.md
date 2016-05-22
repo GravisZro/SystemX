@@ -20,6 +20,6 @@ System X components currently being worked on.
 * sxinit - A minimal init/shutdown system that ensure the system is ready for sysxsmd.
 * sxserviced - A runlevel aware service management daemon.
 * sxconfigd - Abstracts /etc configuration file interface/notifies of configuration updates.
-* sxsyslogd - A text file based system logger that enables better log searching.
+* sxlogd - A text file based system logger that enables better log searching.
 * sxsessiond - A multi-seat session management daemon.
 * More to come.
