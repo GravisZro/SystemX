@@ -14,13 +14,13 @@ The goals for System X are derived from the wisdom I've gained from experience a
 
 # Components
 System X components currently being worked on.
-* [PDTK](https://github.com/GravisZro/pdtk) - Public Domain Toolkit - A minimalist event-driven toolkit that can be compiled into any program.
-* [mcfs](https://github.com/GravisZro/mcfs) - Magic Circle File System - A FUSE filesystem to manage IPC sockets.
-* [incanto](https://github.com/GravisZro/incanto) - Incanto - A code generator for using sockets in MCFS as IPC mechanism.
-* [sxinit](https://github.com/GravisZro/sxinit) - System X Initializer - A minimal init/shutdown system that ensure the system is ready for sxserviced.
-* [sxserviced](https://github.com/GravisZro/sxserviced) - System X Service Daemon - A runlevel aware service management daemon.
-* [sxconfigd](https://github.com/GravisZro/sxconfigd) - System X Configuration Daemon - Abstracts /etc configuration file interface/notifies of configuration updates.
-* [sxyslogd](https://github.com/GravisZro/sxsyslogd) - System X System Logger Daemon - A RFC compliant system logger that logs in an efficient searchable text format.
-* [sxlogd](https://github.com/GravisZro/sxlogd) - System X Logging Daemon - A reliable file logger that refuses to fail.
-* [sxsessiond](https://github.com/GravisZro/sxsessiond) - System X Session Daemon - A generic session manager.
+* [Public Domain Toolkit](https://github.com/GravisZro/pdtk) - A minimalist event-driven toolkit that can be compiled into any program.
+* [Magic Circle File System](https://github.com/GravisZro/mcfs) - A FUSE filesystem to manage IPC sockets.
+* [Incanto](https://github.com/GravisZro/incanto) - A code generator for using sockets in MCFS as IPC mechanism.
+* [System X Initializer](https://github.com/GravisZro/sxinit) - A minimal init/shutdown system that ensure the system is ready for sxserviced.
+* [System X Service Daemon](https://github.com/GravisZro/sxserviced) - A runlevel aware service management daemon.
+* [System X Configuration Daemon](https://github.com/GravisZro/sxconfigd) - Abstracts /etc configuration file interface/notifies of configuration updates.
+* [System X System Logger Daemon](https://github.com/GravisZro/sxsyslogd) - A RFC compliant system logger that logs in an efficient searchable text format.
+* [System X Logging Daemon](https://github.com/GravisZro/sxlogd) - A reliable file logger that refuses to fail.
+* [System X Session Daemon](https://github.com/GravisZro/sxsessiond) - A generic session manager.
 * More to come.
