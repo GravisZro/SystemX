@@ -15,7 +15,7 @@ The goals for System X are derived from the wisdom I've gained from experience a
 # Components
 System X components currently being worked on.
 * [PDTK](https://github.com/GravisZro/pdtk) - Public Domain Toolkit - A minimalist event-driven toolkit that can be compiled into any program.
-* [mcfs](https://github.com/GravisZro/mcfs) - Magic Circle File System - A FUSE filsystem to manage IPC sockets.
+* [mcfs](https://github.com/GravisZro/mcfs) - Magic Circle File System - A FUSE filesystem to manage IPC sockets.
 * [incanto](https://github.com/GravisZro/incanto) - Incanto - A code generator for using sockets in circlefs as IPC mechanism.
 * [sxinit](https://github.com/GravisZro/sxinit) - System X Initializer - A minimal init/shutdown system that ensure the system is ready for sxserviced.
 * [sxserviced](https://github.com/GravisZro/sxserviced) - System X Service Daemon - A runlevel aware service management daemon.
