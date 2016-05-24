@@ -14,12 +14,13 @@ The goals for System X are derived from the wisdom I've gained from experience a
 
 # Components
 System X components currently being worked on.
-* [PDTK](https://github.com/GravisZro/pdtk) - A minimalist event-driven toolkit that can be compiled into any program.
-* [mcfs](https://github.com/GravisZro/mcfs) - A FUSE filsystem to manage IPC sockets.
-* [incanto](https://github.com/GravisZro/incanto) - A code generator for using sockets in circlefs as IPC mechanism.
-* [sxinit](https://github.com/GravisZro/sxinit) - A minimal init/shutdown system that ensure the system is ready for sxserviced.
-* [sxserviced](https://github.com/GravisZro/sxserviced) - A runlevel aware service management daemon.
-* [sxconfigd](https://github.com/GravisZro/sxconfigd) - Abstracts /etc configuration file interface/notifies of configuration updates.
-* [sxlogd](https://github.com/GravisZro/sxlogd) - A text file based system logger that enables better log searching.
-* [sxsessiond](https://github.com/GravisZro/sxsessiond) - A multi-seat user session management daemon.
+* [PDTK](https://github.com/GravisZro/pdtk) - Public Domain Toolkit - A minimalist event-driven toolkit that can be compiled into any program.
+* [mcfs](https://github.com/GravisZro/mcfs) - Magic Circle File System - A FUSE filsystem to manage IPC sockets.
+* [incanto](https://github.com/GravisZro/incanto) - Incanto - A code generator for using sockets in circlefs as IPC mechanism.
+* [sxinit](https://github.com/GravisZro/sxinit) - System X Initializer - A minimal init/shutdown system that ensure the system is ready for sxserviced.
+* [sxserviced](https://github.com/GravisZro/sxserviced) - System X Service Daemon - A runlevel aware service management daemon.
+* [sxconfigd](https://github.com/GravisZro/sxconfigd) - System X Configuration Daemon- Abstracts /etc configuration file interface/notifies of configuration updates.
+* [sxlogd](https://github.com/GravisZro/sxlogd) - System X System Logger Daemon - A RFC compliant system logger that logs in an efficient searchable text format
+* [sxlogd](https://github.com/GravisZro/sxlogd) - System X Logging Daemon - A reliable file logger that refuses to fail.
+* [sxsessiond](https://github.com/GravisZro/sxsessiond) - System X Session Daemon - A generic session manager.
 * More to come.
