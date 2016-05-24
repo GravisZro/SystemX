@@ -17,7 +17,7 @@ System X components currently being worked on.
 * [Public Domain Toolkit](https://github.com/GravisZro/pdtk) - A minimalist event-driven toolkit that can be compiled into any program.
 * [Magic Circle File System](https://github.com/GravisZro/mcfs) - A FUSE filesystem to manage IPC sockets.
 * [Incanto](https://github.com/GravisZro/incanto) - A code generator for using sockets in MCFS as IPC mechanism.
-* [System X Initializer](https://github.com/GravisZro/sxinit) - A minimal init system that ensure the system is ready for a the service daemon.
+* [System X Initializer](https://github.com/GravisZro/sxinit) - A minimal init system that ensure the system is ready for the System X Service Daemon.
 * [System X Service Daemon](https://github.com/GravisZro/sxserviced) - A runlevel managing service management daemon.
 * [System X Configuration Daemon](https://github.com/GravisZro/sxconfigd) - Abstracts /etc configuration file interface/notifies of configuration updates.
 * [System X System Logger Daemon](https://github.com/GravisZro/sxsyslogd) - A RFC compliant system logger that logs in an efficient searchable text format.
