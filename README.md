@@ -20,7 +20,7 @@ System X components currently being worked on.
 * [sxinit](https://github.com/GravisZro/sxinit) - System X Initializer - A minimal init/shutdown system that ensure the system is ready for sxserviced.
 * [sxserviced](https://github.com/GravisZro/sxserviced) - System X Service Daemon - A runlevel aware service management daemon.
 * [sxconfigd](https://github.com/GravisZro/sxconfigd) - System X Configuration Daemon - Abstracts /etc configuration file interface/notifies of configuration updates.
-* [sxlogd](https://github.com/GravisZro/sxlogd) - System X System Logger Daemon - A RFC compliant system logger that logs in an efficient searchable text format.
+* [sxyslogd](https://github.com/GravisZro/sxsyslogd) - System X System Logger Daemon - A RFC compliant system logger that logs in an efficient searchable text format.
 * [sxlogd](https://github.com/GravisZro/sxlogd) - System X Logging Daemon - A reliable file logger that refuses to fail.
 * [sxsessiond](https://github.com/GravisZro/sxsessiond) - System X Session Daemon - A generic session manager.
 * More to come.
