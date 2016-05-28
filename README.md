@@ -22,5 +22,5 @@ System X components currently being worked on.
 * [System X Configuration Daemon](https://github.com/GravisZro/sxconfigd) - Abstracts /etc configuration file interface/notifies of configuration updates.
 * [System X System Logger Daemon](https://github.com/GravisZro/sxsyslogd) - A RFC compliant system logger that logs in an efficient searchable text format.
 * [System X Logging Daemon](https://github.com/GravisZro/sxlogd) - A reliable file logger that refuses to fail.
-* [System X Device Daemon](https://github.com/GravisZro/sxdevd) - A devfs maintainance daemon.
+* [System X Device Daemon](https://github.com/GravisZro/sxdevd) - A devfs maintenance daemon.
 * More to come.
