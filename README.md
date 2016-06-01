@@ -1,4 +1,4 @@
-# System X
+# ![System X](https://github.com/GravisZro/SystemX/systemx.png)
 System X is a set of clients and daemons to enable the fundamental operations of modern POSIX(-like) systems.  You could call it a replacement for Systemd with a different philosophy.
 
 # Goals
