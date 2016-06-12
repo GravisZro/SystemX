@@ -8,7 +8,7 @@ The goals for System X are derived from the wisdom I've gained from experience a
 * Portability - Only rely on [POSIX](https://en.wikipedia.org/wiki/POSIX), [C++](https://en.wikipedia.org/wiki/C%2B%2B_Standard_Library) and [FUSE](https://en.wikipedia.org/wiki/Filesystem_in_Userspace).
 * Multi-platform support - At compile-time, use custom code to support specific kernels when most beneficial.
 * Fault tolerance - Recover from errors or fail gracefully but don't hang or crash.
-* Modularity, not tight integration - Components should be trivial to replace.
+* Modular but integrated - Components should be trivial to replace, able to work together or function independently.
 * Text, not binaries - Configuration and log files should be readable with a generic text editor.
 * Well documented - Generated documentation and code comments are not sufficient.
 
