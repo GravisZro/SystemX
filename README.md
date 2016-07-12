@@ -1,5 +1,5 @@
 # ![System X](https://github.com/GravisZro/SystemX/blob/master/systemx.png)
-System X is a set of clients and daemons to enable the fundamental operations of modern POSIX(-like) systems.  You could call it a replacement for Systemd with a different philosophy.
+System X is the implementation of modern POSIX system.  It displaces both UNIX System V and Linux's Systemd.
 
 # Goals
 The goals for System X are derived from the wisdom I've gained from experience as well as the wisdom of the [Unix philosophy](https://en.wikipedia.org/wiki/Unix_philosophy).
