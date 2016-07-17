@@ -5,7 +5,7 @@ System X is a modernized implementation of a POSIX system.  It can replace both 
 The goals for System X are derived from the wisdom I've gained from experience as well as the wisdom of the [Unix philosophy](https://en.wikipedia.org/wiki/Unix_philosophy).
 
 * Small footprint - The entire system should fit on a floppy.
-* Portability - Only rely on [POSIX](https://en.wikipedia.org/wiki/POSIX), [C++](https://en.wikipedia.org/wiki/C%2B%2B_Standard_Library) and [FUSE](https://en.wikipedia.org/wiki/Filesystem_in_Userspace).
+* Portability - Only rely on [POSIX](https://en.wikipedia.org/wiki/POSIX), [C++](https://en.wikipedia.org/wiki/C%2B%2B_Standard_Library) and statically linked platform libraries with the same restrictions.
 * Multi-platform support - At compile-time, use custom code to support specific kernels when most beneficial.
 * Fault tolerance - Recover from errors or fail gracefully but don't hang or crash.
 * Modular but integrated - Components should be trivial to replace and able to work together or function independently.
@@ -14,9 +14,8 @@ The goals for System X are derived from the wisdom I've gained from experience a
 
 # Components
 System X components currently being worked on.
-* [Public Domain Toolkit](https://github.com/GravisZro/pdtk) - A minimalist event-driven toolkit that can be compiled into any program.
-* [Magic Circle File System](https://github.com/GravisZro/mcfs) - A FUSE filesystem to manage IPC sockets.
-* [Incanto](https://github.com/GravisZro/incanto) - A code generator for using sockets in MCFS as an IPC mechanism.
+## System Components
+* [Magic Circle File System](https://github.com/GravisZro/mcfs) - A [FUSE](https://en.wikipedia.org/wiki/Filesystem_in_Userspace) filesystem to manage IPC sockets.  
 * [Initializer](https://github.com/GravisZro/sxinit) - A minimal init system that ensure the system is ready for the System X Service Daemon.
 * [Service Daemon](https://github.com/GravisZro/sxserviced) - A runlevel based service management daemon.
 * [Configuration Daemon](https://github.com/GravisZro/sxconfigd) - Abstracts /etc configuration file interface/notifies of configuration updates.
@@ -25,3 +24,7 @@ System X components currently being worked on.
 * [Event Daemon](https://github.com/GravisZro/sxeventd) - A hardware event notification daemon.
 * [Device Daemon](https://github.com/GravisZro/sxdevd) - A devfs maintenance daemon.
 * More to come.
+
+## Development Components
+* [Public Domain Toolkit](https://github.com/GravisZro/pdtk) - A minimalist event-driven toolkit that can be compiled into any program.
+* [Incanto](https://github.com/GravisZro/incanto) - A code generator for using sockets in MCFS as an IPC mechanism.
