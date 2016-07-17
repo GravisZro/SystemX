@@ -12,7 +12,7 @@ The goals for System X are derived from the wisdom I've gained from experience a
 * Text, not binaries - Configuration and log files should be readable with a generic text editor.
 * Well documented - Generated documentation and code comments are not sufficient.
 
-# Components
+# Non-POSIX Defined Components
 System X components currently being worked on.
 ## System Components
 * [Magic Circle File System](https://github.com/GravisZro/mcfs) - A [FUSE](https://en.wikipedia.org/wiki/Filesystem_in_Userspace) filesystem to manage IPC sockets.  
