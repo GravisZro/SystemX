@@ -1,5 +1,5 @@
 # ![System X](https://github.com/GravisZro/SystemX/blob/master/systemx.png)
-System X is a modernized implementation of a POSIX system.  It can replace both UNIX System V and Linux's Systemd or be partly used to suppliment an existing system.
+System X is a modernized implementation of a POSIX system.  It can replace both UNIX System V and Linux's Systemd or be partly used to supplement an existing system.
 
 # Goals
 The goals for System X are derived from the wisdom I've gained from experience as well as the wisdom of the [Unix philosophy](https://en.wikipedia.org/wiki/Unix_philosophy).
