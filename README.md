@@ -23,7 +23,6 @@ System X components currently being worked on.
 * [Logging Daemon](https://github.com/GravisZro/sxlogd) - A reliable file logger that refuses to fail.
 * [Event Daemon](https://github.com/GravisZro/sxeventd) - A hardware event notification daemon.
 * [Device Daemon](https://github.com/GravisZro/sxdevd) - A devfs maintenance daemon.
-* [Mount Daemon] - A mountpoint management daemon.
 * More to come.
 
 ## Development Components
