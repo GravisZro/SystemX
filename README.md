@@ -16,14 +16,13 @@ The goals for System X are derived from the wisdom I've gained from experience a
 System X components currently being worked on.
 ## System Components
 * [Magic Circle File System](https://github.com/GravisZro/mcfs) - A [FUSE](https://en.wikipedia.org/wiki/Filesystem_in_Userspace) filesystem to manage IPC sockets.  
-* [Initializer](https://github.com/GravisZro/SXinit) - A minimal init system that ensure the system is ready for the System X Executor Daemon.
+* [Initializer](https://github.com/GravisZro/SXinit) - A minimal init system that ensures the Executor daemon and TTYs are respawned.
 * [Executor Daemon](https://github.com/GravisZro/SXexecutor) - A dependency and runlevel based daemon management daemon.
 * [Configuration Daemon](https://github.com/GravisZro/SXconfig) - Abstracts /etc configuration file interface/notifies of configuration updates.
 * [System Logger Daemon](https://github.com/GravisZro/SXsyslog) - A RFC compliant system logger that logs in an efficient searchable text format.
 * [Logging Daemon](https://github.com/GravisZro/SXlog) - A reliable file logger that refuses to fail.
 * [Event Daemon](https://github.com/GravisZro/SXevent) - A hardware event notification daemon.
-* [Device Daemon](https://github.com/GravisZro/SXdev] - A devfs maintenance daemon.
-* More to come.
+* [Device Daemon](https://github.com/GravisZro/SXdev) - A devfs maintenance daemon.
 
 ## Development Components
 * [Public Domain Toolkit](https://github.com/GravisZro/pdtk) - A minimalist event-driven toolkit that can be compiled into any program.
