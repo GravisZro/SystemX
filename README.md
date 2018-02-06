@@ -16,7 +16,7 @@ The goals for System X are derived from the wisdom I've gained from experience a
 System X components currently being worked on.
 ## System Components
 * [Service Connector File System](https://github.com/GravisZro/scfs) - A [FUSE](https://en.wikipedia.org/wiki/Filesystem_in_Userspace) filesystem to manage service sockets.  
-* [Initializer](https://github.com/GravisZro/SXinit) - A minimal init system that ensures the MCFS is mounted, Config daemon runs then Director daemon runs or bails out to an emergency shell.
+* [Initializer](https://github.com/GravisZro/SXinit) - A minimal init system that ensures the SCFS is mounted, Config daemon runs then Director daemon runs or bails out to an emergency shell.
 * [Executor](https://github.com/GravisZro/executor) - A small tool to setup an environment for and then execute a program.
 * [Director Daemon](https://github.com/GravisZro/SXdirector) - A dependency and runlevel based daemon management daemon.
 * [Configuration Daemon](https://github.com/GravisZro/SXconfig) - Abstracts /etc configuration file interface/notifies of configuration updates.
