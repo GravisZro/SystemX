@@ -15,9 +15,10 @@ The goals for System X are derived from the wisdom I've gained from experience a
 # Non-POSIX Defined Components
 System X components currently being worked on.
 ## System Components
-* [Magic Circle File System](https://github.com/GravisZro/mcfs) - A [FUSE](https://en.wikipedia.org/wiki/Filesystem_in_Userspace) filesystem to manage IPC sockets.  
-* [Initializer](https://github.com/GravisZro/SXinit) - A minimal init system that ensures the MCFS is mounted, Config daemon and then Executor daemon runs with an emergency shell.
-* [Executor Daemon](https://github.com/GravisZro/SXexecutor) - A dependency and runlevel based daemon management daemon.
+* [Service Connector File System](https://github.com/GravisZro/scfs) - A [FUSE](https://en.wikipedia.org/wiki/Filesystem_in_Userspace) filesystem to manage service sockets.  
+* [Initializer](https://github.com/GravisZro/SXinit) - A minimal init system that ensures the MCFS is mounted, Config daemon runs then Director daemon runs or bails out to an emergency shell.
+* [Executor](https://github.com/GravisZro/executor) - A small tool to setup an environment for and then execute a program.
+* [Director Daemon](https://github.com/GravisZro/SXdirector) - A dependency and runlevel based daemon management daemon.
 * [Configuration Daemon](https://github.com/GravisZro/SXconfig) - Abstracts /etc configuration file interface/notifies of configuration updates.
 * [System Logger Daemon](https://github.com/GravisZro/SXsyslog) - A RFC compliant system logger that logs in an efficient searchable text format.
 * [Logging Daemon](https://github.com/GravisZro/SXlog) - A reliable file logger that refuses to fail.
