@@ -27,4 +27,4 @@ System X components currently being worked on.
 
 ## Development Components
 * [Public Domain Toolkit](https://github.com/GravisZro/pdtk) - A minimalist event-driven toolkit that can be compiled into any program.
-* [Incanto](https://github.com/GravisZro/incanto) - A code generator for using sockets in MCFS as an IPC mechanism.
+* [Incanto](https://github.com/GravisZro/incanto) - A code generator for using sockets in SCFS as an IPC mechanism.
